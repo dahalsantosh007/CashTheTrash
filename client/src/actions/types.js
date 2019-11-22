@@ -1,0 +1,37 @@
+import { createAction } from 'redux-actions';
+
+export const LOGINUSERNAME_POST = 'LOGINUSERNAME_POST';
+export const USERPASSWORD_POST = 'USERPASSWORD_POST';
+export const STORAGE_POST = 'STORAGE_POST';
+export const ISLOADING_POST = 'ISLOADING_POST';
+export const PRODUCT_NAME = 'PRODUCT_NAME';
+export const PRODUCT_PRICE = 'PRODUCT_PRICE';
+export const PRODUCT_DESCRIPTION = 'PRODUCT_DESCRIPTION';
+export const PRODUCT_ID = 'PRODUCT_ID';
+export const QUANTITY = 'QUANTITY';
+export const DATA_POST = 'DATA_POST';
+export const ENTERED_EMAIL = 'ENTERED_EMAIL';
+export const ENTERED_TOKEN = 'ENTERED_TOKEN';
+export const ENTERED_NEW_PASSWORD = 'ENTERED_NEW_PASSWORD';
+export const TOKEN_RECEIVED = 'TOKEN_RECEIVED';
+export const REGISTER_USER_NAME = 'REGISTER_USER_NAME';
+export const REGISTER_PASSWORD = 'REGISTER_PASSWORD';
+export const REGISTER_CONFIRM_PASSWORD = 'REGISTER_CONFIRM_PASSWORD';
+export const REGISTER_EMAIL = 'REGISTER_EMAIL';
+export const REQUEST_LOGIN_ACTION = 'REQUEST_LOGIN_ACTION';
+export const ADD_PRODUCT_ACTION = 'ADD_PRODUCT_ACTION';
+export const LOGOUT_ACTION = 'LOGOUT_ACTION';
+export const LOGGED_USER = 'LOGGED_USER';
+export const SEND_EMAIL = 'SEND_EMAIL';
+export const REGISTER_USER = 'REGISTER_USER';
+export const CHANGE_PASSWORD = 'CHANGE_PASSWORD';
+export const ENTERED_USER_NAME = 'ENTERED_USER_NAME';
+export const GET_TOKEN_ACTION = 'GET_TOKEN_ACTION';
+
+export const requestLogInActions = createAction(REQUEST_LOGIN_ACTION);
+export const addProductActions = createAction(ADD_PRODUCT_ACTION);
+export const logOutActions = createAction(LOGOUT_ACTION);
+export const requestSendEmail = createAction(SEND_EMAIL);
+export const requestRegisterUser = createAction(REGISTER_USER);
+export const requestChangePassword = createAction(CHANGE_PASSWORD);
+export const getTokenAction = createAction(GET_TOKEN_ACTION);
